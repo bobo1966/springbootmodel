@@ -1,7 +1,5 @@
 package com.fan.ersha.service;
 
-import com.fan.ersha.entity.User;
-import com.fan.ersha.mapper.UserMapper;
 import com.github.pagehelper.PageHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

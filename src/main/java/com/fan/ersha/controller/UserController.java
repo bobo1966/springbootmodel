@@ -1,8 +1,6 @@
 package com.fan.ersha.controller;
 
-import com.fan.ersha.entity.User;
 import com.fan.ersha.service.UserService;
-import com.sun.tools.javac.code.Type;
 import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -42,6 +40,7 @@ public class UserController {
     public List<User> findAllUser(@PathVariable("pageNum") int pageNum, @PathVariable("pageSize") int pageSize){
         //System.out.println("124785235");
         return userService.findAllUser(pageNum,pageSize);
+        
     }
 
 
